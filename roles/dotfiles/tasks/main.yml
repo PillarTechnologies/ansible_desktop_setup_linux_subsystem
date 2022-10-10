@@ -12,6 +12,7 @@
     mode: '0755'
   with_items:
     - .local/share/nvim/site/autoload
+    - .config
 
   #clone dotfiles repo and symlink my files
 - name: clone dotfiles
