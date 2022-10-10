@@ -27,10 +27,10 @@
       - tree
       - wget
 
-- name: clone ansible_desktop_setup
+- name: clone ansible_desktop_setup_linux_subsystem
   become_user: ldraney
   ansible.builtin.git:
-    repo: 'ssh://git@github.com/ldraney/ansible_desktop_setup.git'
+    repo: 'ssh://git@github.com/ldraney/ansible_desktop_setup_linux_subsystem.git'
     clone: yes
     dest: /home/ldraney/github/ansible_desktop_setup
     key_file: /home/ldraney/.ssh/id_ed25519
